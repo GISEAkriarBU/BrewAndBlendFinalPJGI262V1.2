@@ -3,8 +3,8 @@ using UnityEngine;
 public class Board : MonoBehaviour
 {
     public GameObject cellPrefab;  // assign prefab in Inspector
-    public int gridSizeX = 3;
-    public int gridSizeY = 3;
+    public int gridSizeX = 5;
+    public int gridSizeY = 5;
     public float cellSpacing = 1f;
 
     private Cell[,] cells;
